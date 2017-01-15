@@ -1,0 +1,40 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "This is a repository to hold a general purpose react-starter application that I built myself. This is to teach me the fundamentals of how web applications are built.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack --progress --colors --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptJakk/react-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptJakk/react-starter/issues"
+  },
+  "homepage": "https://github.com/CaptJakk/react-starter#readme",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "express": "^4.14.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "express-livereload": "0.0.24",
+    "react-hot-loader": "^1.3.1",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
+  }
+}
